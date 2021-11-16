@@ -125,18 +125,32 @@ h1{
     font-size: 30px;
     text-align: center;
     color: black;
+    margin-left: 100px;
+    text-shadow: 2px 2px darkgrey;
+    text-decoration-line: underline;
 }
 
 h2{
     text-shadow: 2px 2px darkgrey;
     text-decoration-line: underline;
-    margin-left: 300px;
+    margin-left: 280px;
     color: black;
     font-family: "Arial Black";
     text-align: left;
-    font-size: 25px;
+    font-size: 30px;
 }
 h3{
-    margin-left: 500px;
+    margin-left: 440px;
     text-align: left;
+}
+
+h4{
+    text-align: center;
+    text-shadow: 2px 2px darkgrey;
+    text-decoration-line: underline;
+    margin-left: 450px;
+    color: black;
+    font-family: "Arial Black";
+    text-align: left;
+    font-size: 30px;
 }
