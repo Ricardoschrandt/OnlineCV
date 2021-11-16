@@ -1,7 +1,6 @@
 Body {
 
-    background-image: url("01_WorldMap_med.jpg");
-    background-color: #cccccc;
+
 }
 
 *{
@@ -19,6 +18,7 @@ Body {
     background: rgb(74,209,226);
     background: linear-gradient(90deg, rgba(74,209,226,0.7063200280112045) 40%, rgba(0,123,202,1) 64%);
     transition: all .5s ease;
+
 }
 
 
@@ -33,6 +33,7 @@ Body {
     background: rgb(74,209,226);
     background: linear-gradient(90deg, rgba(74,209,226,0.7063200280112045) 40%, rgba(0,123,202,1) 64%);
     user-select: none;
+    
 }
 
 .sidebar ul a{
@@ -48,6 +49,7 @@ Body {
     border-top: 1px solid turquoise;
     border-bottom: 1px solid turquoise;
     transition: 4s;
+
 }
 
 ul li:hover a{
@@ -111,4 +113,30 @@ section{
     background-position: center;
     background-size: cover;
     height: 100vh;
+}
+
+
+#check:checked ~ label #section{
+    margin-left: 250px;
+}
+
+h1{
+    font-family: "Arial Black";
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+h2{
+    text-shadow: 2px 2px darkgrey;
+    text-decoration-line: underline;
+    margin-left: 300px;
+    color: black;
+    font-family: "Arial Black";
+    text-align: left;
+    font-size: 25px;
+}
+h3{
+    margin-left: 500px;
+    text-align: left;
 }
